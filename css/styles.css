@@ -1,0 +1,10 @@
+body {
+  background-image:url(../imgs/happy.jpg);
+  height:200px;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-style: italic;
+}
+img {
+  height:100px;
+}
