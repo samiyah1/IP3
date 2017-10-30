@@ -4,11 +4,42 @@
   <title>Ping-pong game</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-  <h1>Lets play with Dinosaurs!</h1>
-  <p>Lets Learn the Multiplication Table by playing this</p>
-  <img src="imgs/dinosaur.jpg" alt="woow">
+
+  <h1>Lets learn the multiplication table!</h1>
+
+
+<div class="container" id="rule">
+  <button>RULES</button>
+  <div class="rules-hiden">
+    <p>Here are the rules!</p>
+<p>The rules of the game are simple <br />
+multiples of three are called "pings"<br />
+and multiple of 5 are called "pongs"<br />
+and multiples of 15 are called "pingpongs"<br />
+if you answer is correct you get a reward</p>
+
+<img src="imgs/monkey.jpg" alt="monkey">
+<div class="centered">simple rules right!</div>
+
+</div>
+</div>
+<div class="container" style="text-align:center;" id="forms">
+<P>lets start our game ..am excited yeey!<br />
+  lets start with simple questions<br />
+
+<form id="divisibleby3">
+<div class="form-group">
+<label for="number">Enter a number and find out if its a ping:</label>
+<input id="number" type="text">
+</div>
+
+<button type="submit" class="btn">Find out!</button>
+</form>
+
+<div id="result">
 
 
 
@@ -16,12 +47,7 @@
 
 
 
-
-
-
-
-
-
-<script src="jss/jquery-3.2.1.js"></script>
-<script src="jss/scripts.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/scripts.js"></script>
+</body>
 </html>

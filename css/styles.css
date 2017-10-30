@@ -1,10 +1,28 @@
 body {
-  background-image:url(../imgs/happy.jpg);
-  height:200px;
-  background-repeat: no-repeat;
-  text-align: center;
-  font-style: italic;
+background-image:url(../imgs/happy.jpg);
+height:200px;
+background-repeat: no-repeat;
+text-align: center;
+
 }
 img {
-  height:100px;
+  height:200px;
+}
+
+.container  img {
+  height: 300px;
+}
+#rule {
+  float: right;
+}
+.rules-hiden {
+  color:green;
+  float:top;
+  font-size: 20px;
+}
+#forms {
+  position:absolute;
+  right:400px;
+  font-size: 20px;
+  color:
 }
