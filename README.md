@@ -1,6 +1,6 @@
-# {ping-pong game}
+# ping-pong game
 
-#### {ping-pong Game}, {31/10/2017}
+#### ping-pong Game, 31/10/2017
 
 #### By **{MARIAM OMAR}**
 
@@ -17,8 +17,8 @@ JAVASCRIPT
 
 ## Support and contact details
 
-{you can contact me by gmail:umarsamiya@gmail.com
-telephone no:0721772134}
+you can contact me by gmail:umarsamiya@gmail.com
+telephone no:0721772134
 
 ### License
 
