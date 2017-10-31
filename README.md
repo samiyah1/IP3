@@ -1,8 +1,8 @@
-# ping-pong game
+# {ping-pong game
 
 #### ping-pong Game, 31/10/2017
 
-#### By **{MARIAM OMAR}**
+#### By **MARIAM OMAR**
 
 ## Description
 
@@ -23,4 +23,4 @@ telephone no:0721772134
 ### License
 
 
-Copyright (c) {year} **{mariam Omar}
+Copyright (c) {2017} **mariam Omar
