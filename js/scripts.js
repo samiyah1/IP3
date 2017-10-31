@@ -1,10 +1,37 @@
 $(document).ready(function(){
 $("button").click(function(){
-$(".rules-hiden").toggle();
+// $(".rules-hiden").toggle();
   });
 });
-var n =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30];
-var dividedNumber= numbers.map(function(number) {
-  return number /3; 
-})
-var names =new array ("ping","pong","pingpong");
+
+    var username = $("#username").val();
+    if (username!="") {
+      alert("Helloooo "+ username + ", Let's play together!");
+    }else{
+      alert("kindly add a username");
+    }
+
+
+var ping = $("#ping").val();
+var y = ping / 3;
+document.getElementById("ping").innerHTML = y;
+//
+// if (ping = *3) {
+//   alert("wow you got it correct\ncame and get your reward");
+// }else {
+//   alert("oops!try it again");
+// }
+
+function myMultiple3() {
+  var ping = $("#ping").val();
+  console.log(ping);
+}
+
+function myMultiple5() {
+  var pong = $("#pong").val();
+  console.log(pong);
+}
+function myMultiple15() {
+  var pingpong = $("#pingpong").val();
+  console.log(pingpong);
+}

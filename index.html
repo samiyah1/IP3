@@ -16,7 +16,7 @@
   <div class="rules-hiden">
     <p>Here are the rules!</p>
 <p>The rules of the game are simple <br />
-multiples of three are called "pings"<br />
+multiples of 3 are called "pings"<br />
 and multiple of 5 are called "pongs"<br />
 and multiples of 15 are called "pingpongs"<br />
 if you answer is correct you get a reward</p>
@@ -27,21 +27,24 @@ if you answer is correct you get a reward</p>
 </div>
 </div>
 <div class="container" style="text-align:center;" id="forms">
-<P>lets start our game ..am excited yeey!<br />
-  lets start with simple questions<br />
+<P><strong> hello! Welcome <br />
+  Am excited to play with you!</strong></p>
 
-<form id="divisibleby3">
+
 <div class="form-group">
-<label for="number">Enter a number and find out if its a ping:</label>
-<input id="number" type="text">
-</div>
+username :<input type="text" name="username" id="username">
+<button onclick="myFunction()">Try it</button><br />
 
-<button type="submit" class="btn">Find out!</button>
-</form>
-
-<div id="result">
-
-
+<P><em>lets start our game ..am excited yeey!<br />
+  lets start with simple questions<em><br /></p>
+<!-- <form name="nameyou"> -->
+<br />your ping number:<input type="text" id="ping">
+<button onclick="myMultiple3()">ping</button></br>
+<br /> your pong number:<input type="text"  id="pong">
+<button onclick="myMultiple5()">pong</button><br />
+<br /> your pingpong number:<input type="text"  id="pingpong">
+<button onclick="myMultiple15()">pingpong</button><br />
+<!-- </form> -->
 
 
 
