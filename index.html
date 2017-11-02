@@ -4,7 +4,7 @@
   <title>Ping-pong game</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Play|Russo+One|Varela+Round" rel="stylesheet">
 </head>
 <body>
 
@@ -26,30 +26,31 @@ if you answer is correct you get a reward</p>
 
 </div>
 </div>
+
 <div class="container" style="text-align:center;" id="forms">
 <P><strong> hello! Welcome <br />
   Am excited to play with you!</strong></p>
 
-
+<form>
 <div class="form-group">
 username :<input type="text" name="username" id="username">
-<button onclick="myFunction()">Try it</button><br />
-
+<button onClick="myName()" id="button">Name</button><br />
+</form>
 <P><em>lets start our game ..am excited yeey!<br />
   lets start with simple questions<em><br /></p>
-<!-- <form name="nameyou"> -->
-<br />your ping number:<input type="text" id="ping">
-<button onclick="myMultiple3()">ping</button></br>
-<br /> your pong number:<input type="text"  id="pong">
-<button onclick="myMultiple5()">pong</button><br />
-<br /> your pingpong number:<input type="text"  id="pingpong">
-<button onclick="myMultiple15()">pingpong</button><br />
-<!-- </form> -->
+<form id="piform" >
+<br /><input style="width:400px;height:20px;" type="text" placeholder="your number" id="ping">
+<button type="submit">ping</button></br>
+<button type="submit">pong</button></br>
+<button type="submit">pingpong</button></br>
+<div class="pi">
+  <ul id="pi">
+
+  </ul>
+</div>
 
 
-
-
-
+</div>
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/scripts.js"></script>
 </body>
